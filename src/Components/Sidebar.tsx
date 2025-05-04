@@ -16,16 +16,16 @@ const Sidebar = () => {
     maxPrice,
     setMaxPrice,
    
-    setKeyword,
+
   } = useFilter();
 
   const [categories, setCategories] = useState<string[]>([]);
-  const [keywords] = useState<string[]>([
-    "men's clothing",
-    "women's clothing",
-    "electronics",
-    "jewelery",
-  ]);
+  // const [keywords] = useState<string[]>([
+  //   "men's clothing",
+  //   "women's clothing",
+  //   "electronics",
+  //   "jewelery",
+  // ]);
 
   useEffect(() => {
     const fetchCategories = async () => {
@@ -57,16 +57,16 @@ const Sidebar = () => {
     setSelectedCategory(category);
   };
 
-  const handleKeywordClick = (keyword: string) => {
-    setKeyword(keyword);
-  };
+  // const handleKeywordClick = (keyword: string) => {
+  //   setKeyword(keyword);
+  // };
 
   const handleResetFilters = () => {
     setSearchQuery("");
     setSelectedCategory("");
     setMinPrice(undefined);
     setMaxPrice(undefined);
-    setKeyword("");
+    // setKeyword("");
   };
 
   return (
@@ -119,7 +119,7 @@ const Sidebar = () => {
           ))}
         </section>
 
-        <div className="mb-5 mt-4">
+        {/* <div className="mb-5 mt-4">
           <h2 className="text-xl font-semibold mb-3">Keywords</h2>
           <div>
             {keywords.map((keyword) => (
@@ -132,7 +132,7 @@ const Sidebar = () => {
               </button>
             ))}
           </div>
-        </div>
+        </div> */}
 
         <button
           onClick={handleResetFilters}
