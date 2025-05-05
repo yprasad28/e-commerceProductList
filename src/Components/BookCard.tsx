@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import React from "react";
 
 interface BookCardProps {
-  id: string;
+  id: number;
   title: string;
   image: string;
   price: number;

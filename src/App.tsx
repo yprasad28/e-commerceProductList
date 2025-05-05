@@ -6,7 +6,7 @@ import ProductPage from "./Components/ProductPage";
 export default function App() {
   return (
     <Router>
-      <div className="flex h-screen">
+      <div className="flex h-screen flex-col md:flex-row">
         <Sidebar />
 
         <div className="rounded w-full flex justify-between flex-wrap">
