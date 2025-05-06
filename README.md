@@ -11,3 +11,12 @@ A modern e-commerce product listing web application built with React and Tailwin
    ```bash
    git clone https://github.com/yprasad28/e-commerceProductList.git
    cd e-commerceProductList
+#Install dependencies:
+npm install
+
+#Run the development server:
+npm run dev
+
+#Open your browser and navigate to:
+http://localhost:5173
+
