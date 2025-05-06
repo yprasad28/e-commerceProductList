@@ -23,10 +23,11 @@ npm run dev
 http://localhost:5173
 
 
-🗂️ Project Structure
+## 🗂️ Project Structure
 
 src/
-├── components/         
+├── components/   
+|
 │   ├── BookCard.tsx
 │   ├── FilterContext.tsx
 │   ├── MainContent.tsx
