@@ -22,3 +22,19 @@ npm run dev
 ## Open your browser and navigate to:
 http://localhost:5173
 
+
+🗂️ Project Structure
+
+src/
+├── components/         
+│   ├── BookCard.tsx
+│   ├── FilterContext.tsx
+│   ├── MainContent.tsx
+│   ├── ProductPage.tsx                                                       
+│   └── Sidebar.tsx
+├── pages/              
+│   └── Home.tsx
+├── types/              
+├── App.tsx            
+├── main.tsx           
+└── index.css           
