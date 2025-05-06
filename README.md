@@ -1,9 +1,21 @@
 
 # 🛍️ E-Commerce Product List
 
-A modern e-commerce product listing web application built with React and Tailwind CSS. It displays a catalog of products fetched from a public API and provides filtering and sorting features for a better user experience.
+A simple e-commerce store built with React, TypeScript, and Tailwind CSS. It displays a catalog of products fetched from a public API and provides filtering and sorting features for a better user experience.
 
 ---
+
+## ⚙️ Tech Stack
+
+ReactJS – for building the user interface
+
+TypeScript – for static type checking
+
+Tailwind CSS – for utility-first, responsive styling
+
+Vite – for fast development and build tooling
+
+
 
 ## 📦 Installation & Running the Project
 
